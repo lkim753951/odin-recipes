@@ -24,6 +24,11 @@ width: 640px;
 height: 400px;
 object-fit: cover; /* Prevents stretching if the original ratio is different */
 
+/* steps*/
+.steps{
+font-weight: bold;
+}
+    
 ```
 /* Box shadow: 4px offset-x, 4px offset-y, 8px blur */
 box-shadow: 4px 4px 8px #555555;
