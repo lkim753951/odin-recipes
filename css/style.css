@@ -1,0 +1,53 @@
+/* General page background */
+body {
+background-color: #fff0f3; /* Light rose / misty pink */
+margin: 40px; /* Optional: adds space around your content */
+}
+
+/* Headings: Arial, Bold, Dark Grey */
+h1, h2, h3 {
+font-family: Arial, sans-serif;
+font-weight: bold;
+color: #333333; /* Dark grey */
+}
+
+/* Body Text: Arial, Normal, Black */
+p, span, li, div {
+font-family: Arial, sans-serif;
+font-weight: normal;
+color: #000000; /* Pure black */
+}
+
+/* Image styling */
+img {
+width: 640px;
+height: 400px;
+object-fit: cover; /* Prevents stretching if the original ratio is different */
+
+```
+/* Box shadow: 4px offset-x, 4px offset-y, 8px blur */
+box-shadow: 4px 4px 8px #555555;
+
+/* Rounded edges specifically for bottom-right */
+border-bottom-right-radius: 20px;
+
+```
+
+}
+
+Just a note (for resizing based on screen or device):
+
+/* This code only runs on screens smaller than 640px (like mobile phones) */
+@media screen and (max-width: 640px) {
+img {
+width: 100%;    /* Image fills the phone screen width */
+height: auto;   /* Height adjusts automatically to prevent squishing */
+border-bottom-right-radius: 15px; /* Slightly smaller radius for smaller screens */
+}
+
+```
+body {
+    margin: 20px;   /* Reduces padding on the sides for more text room */
+}
+
+```
