@@ -9,6 +9,6 @@ The Skills demonstrated from this project are:
 3. fundamental web development concepts
 4. extensive HTML, CSS and JS concepts and scripts
 
-Live Demo: [Here]([url](https://lkim753951.github.io/odin-recipes/))
+Live Demo: https://lkim753951.github.io/odin-recipes/
 
 
